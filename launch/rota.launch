@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="RoTa" type="ros_thread.py" name="main">
+    </node>
+    <node pkg="RoTa" type="engel_node.py" name="engel">
+    </node>
+</launch>
